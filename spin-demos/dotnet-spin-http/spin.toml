@@ -1,0 +1,14 @@
+spin_version = "1"
+authors = ["Christian Weyer <christian.weyer@thinktecture.com>"]
+description = ""
+name = "dotnet-spin-http"
+version = "1.0.0"
+trigger = { type = "http", base = "/" }
+
+[[component]]
+id = "dotnet_spin_http"
+source = "bin/Release/net7.0/dotnet-spin-http.wasm"
+[component.build]
+command = "dotnet build -c Release"
+[component.trigger]
+route = "/..."
