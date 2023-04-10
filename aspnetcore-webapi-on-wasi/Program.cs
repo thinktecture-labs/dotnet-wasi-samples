@@ -1,11 +1,11 @@
-﻿//var builder = WebApplication.CreateBuilder(args);
+﻿using System.Runtime.InteropServices;
+
+Console.WriteLine($"Running on {RuntimeInformation.OSArchitecture}");
+
+//var builder = WebApplication.CreateBuilder(args);
 var builder = WebApplication.CreateBuilder(args).UseWasiConnectionListener();
 
-// Add services to the container.
-
 var app = builder.Build();
-
-// Configure the HTTP request pipeline.
 
 var summaries = new[]
 {
