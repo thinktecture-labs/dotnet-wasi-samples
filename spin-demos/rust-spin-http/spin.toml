@@ -8,7 +8,9 @@ version = "0.1.0"
 [[component]]
 id = "rust-spin-http"
 source = "target/wasm32-wasi/release/rust_spin_http.wasm"
+
 [component.trigger]
 route = "/..."
+
 [component.build]
 command = "cargo build --target wasm32-wasi --release"
