@@ -1,1 +1,0 @@
-node --experimental-wasi-unstable-preview1 --no-warnings  wasi-host.mjs

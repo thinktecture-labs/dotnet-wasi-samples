@@ -1,5 +1,0 @@
-{
-  "dependencies": {
-    "wasm-opt": "^1.4.0"
-  }
-}
