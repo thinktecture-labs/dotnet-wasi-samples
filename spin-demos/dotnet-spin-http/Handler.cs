@@ -14,7 +14,7 @@ public static class Handler
             {
                 { "Content-Type", "text/plain" },
             },
-            BodyAsString = "Hello from Serverless WASM with .NET!\n",
+            BodyAsString = "Hello from Serverless Wasm with .NET!\n",
         };
     }
 }
