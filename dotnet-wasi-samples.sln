@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCoreWebApiOnWasi", "aspnetcore-webapi-wasi\AspNetCoreWebApiOnWasi.csproj", "{7B8F9D3C-A162-4B11-A758-FA95800C0453}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWASI", "console-hello-wasi\HelloWASI.csproj", "{CAB59580-9AA0-432C-96A4-EDD3E9E6494B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "spin-demos", "spin-demos", "{5A461BD6-F94D-4372-922F-C4E82A487E0C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project", "spin-demos\dotnet-spin-http\Project.csproj", "{4BE035B8-5172-40FF-A834-FA821AD4D5DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B8F9D3C-A162-4B11-A758-FA95800C0453}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B8F9D3C-A162-4B11-A758-FA95800C0453}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B8F9D3C-A162-4B11-A758-FA95800C0453}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B8F9D3C-A162-4B11-A758-FA95800C0453}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAB59580-9AA0-432C-96A4-EDD3E9E6494B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAB59580-9AA0-432C-96A4-EDD3E9E6494B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAB59580-9AA0-432C-96A4-EDD3E9E6494B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAB59580-9AA0-432C-96A4-EDD3E9E6494B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BE035B8-5172-40FF-A834-FA821AD4D5DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BE035B8-5172-40FF-A834-FA821AD4D5DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BE035B8-5172-40FF-A834-FA821AD4D5DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BE035B8-5172-40FF-A834-FA821AD4D5DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4BE035B8-5172-40FF-A834-FA821AD4D5DE} = {5A461BD6-F94D-4372-922F-C4E82A487E0C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {21BDE8B0-74FA-4BFD-9420-AE48CE47BC34}
+	EndGlobalSection
+EndGlobal
