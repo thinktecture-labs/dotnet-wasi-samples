@@ -11,5 +11,5 @@ fn rust_spin_http(req: Request) -> Result<Response> {
     Ok(http::Response::builder()
         .status(200)
         .header("foo", "bar")
-        .body(Some("Hello, Serverless WASM!".into()))?)
+        .body(Some("Hello, Serverless Wasm!".into()))?)
 }
