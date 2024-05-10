@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dotnet-wasi-sdk", "dotnet-wasi-sdk", "{81D62FF6-C72D-46BA-924F-054F9853E10A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCoreWebApiOnWasi", "dotnet-wasi-sdk\aspnetcore-webapi-wasi\AspNetCoreWebApiOnWasi.csproj", "{A8B2D57F-9314-4BBC-91DF-3B34817C014B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWASI", "dotnet-wasi-sdk\console-hello-wasi\HelloWASI.csproj", "{BDC58DE6-51CA-4416-9196-18A2DA9D3841}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "spin-demos", "spin-demos", "{9ED2C679-0162-4640-811D-91672E9D47E0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project", "spin-demos\dotnet-spin-http\Project.csproj", "{7B52329B-542C-4D59-866D-DBE72CF669FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dotnet8", "dotnet8", "{53A98809-8FA6-4CB5-A8E9-740769C97BD2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "wasiconsole", "dotnet8\wasiconsole\wasiconsole.csproj", "{83121257-7A04-4399-90EE-A2CC26AC6322}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8B2D57F-9314-4BBC-91DF-3B34817C014B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8B2D57F-9314-4BBC-91DF-3B34817C014B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8B2D57F-9314-4BBC-91DF-3B34817C014B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8B2D57F-9314-4BBC-91DF-3B34817C014B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDC58DE6-51CA-4416-9196-18A2DA9D3841}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDC58DE6-51CA-4416-9196-18A2DA9D3841}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDC58DE6-51CA-4416-9196-18A2DA9D3841}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDC58DE6-51CA-4416-9196-18A2DA9D3841}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B52329B-542C-4D59-866D-DBE72CF669FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B52329B-542C-4D59-866D-DBE72CF669FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B52329B-542C-4D59-866D-DBE72CF669FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B52329B-542C-4D59-866D-DBE72CF669FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83121257-7A04-4399-90EE-A2CC26AC6322}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83121257-7A04-4399-90EE-A2CC26AC6322}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83121257-7A04-4399-90EE-A2CC26AC6322}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83121257-7A04-4399-90EE-A2CC26AC6322}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A8B2D57F-9314-4BBC-91DF-3B34817C014B} = {81D62FF6-C72D-46BA-924F-054F9853E10A}
+		{BDC58DE6-51CA-4416-9196-18A2DA9D3841} = {81D62FF6-C72D-46BA-924F-054F9853E10A}
+		{7B52329B-542C-4D59-866D-DBE72CF669FD} = {9ED2C679-0162-4640-811D-91672E9D47E0}
+		{83121257-7A04-4399-90EE-A2CC26AC6322} = {53A98809-8FA6-4CB5-A8E9-740769C97BD2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7DD0A3FD-B9FB-4103-81A6-72354E2878EA}
+	EndGlobalSection
+EndGlobal

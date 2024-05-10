@@ -2,7 +2,12 @@
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <RuntimeIdentifier>wasi-wasm</RuntimeIdentifier>
+    <!--<WasmSingleFileBundle>true</WasmSingleFileBundle>-->
     <OutputType>Exe</OutputType>
     <PublishTrimmed>true</PublishTrimmed>
   </PropertyGroup>
+
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="npx wasm-opt -Oz --enable-bulk-memory $(TargetDir)/AppBundle/wasiconsole.wasm -o $(TargetDir)/AppBundle/wasiconsole-o.wasm" />
+  </Target>
 </Project>
