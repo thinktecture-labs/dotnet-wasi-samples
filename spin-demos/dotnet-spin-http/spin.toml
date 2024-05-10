@@ -1,14 +1,16 @@
-spin_version = "1"
-authors = ["Christian Weyer <christian.weyer@thinktecture.com>"]
+spin_manifest_version = 2
+
+[application]
+authors = ["Christian Weyer <cw@thinktecture.com>"]
 description = ""
 name = "dotnet-spin-http"
 version = "1.0.0"
-trigger = { type = "http", base = "/" }
 
-[[component]]
-id = "dotnet_spin_http"
-source = "bin/Release/net7.0/dotnet-spin-http.wasm"
-[component.build]
-command = "dotnet build -c Release"
-[component.trigger]
+[[trigger.http]]
 route = "/..."
+component = "dotnet-spin-http"
+
+[component.dotnet-spin-http]
+source = "bin/Release/net8.0/DotnetSpinHttp.wasm"
+[component.dotnet-spin-http.build]
+command = "dotnet build -c Release"

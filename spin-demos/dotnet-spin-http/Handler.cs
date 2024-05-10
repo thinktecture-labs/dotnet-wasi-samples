@@ -1,6 +1,6 @@
 ﻿using Fermyon.Spin.Sdk;
 
-namespace dotnetspinhttp;
+namespace DotnetSpinHttp;
 
 public static class Handler
 {
@@ -14,7 +14,7 @@ public static class Handler
             {
                 { "Content-Type", "text/plain" },
             },
-            BodyAsString = "Hello from Serverless Wasm with .NET!\n",
+            BodyAsString = "Hello from .NET\n",
         };
     }
 }
